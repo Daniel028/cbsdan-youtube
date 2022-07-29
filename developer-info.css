@@ -1,0 +1,86 @@
+.developer-info {
+  color: rgb(234, 234, 234);
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 300px;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  pointer-events: none;
+}
+
+.more-info {
+  opacity: 0;
+  transition: opacity 0.3s;
+  margin: 5px 2px;
+}
+.description {
+  background-color: rgba(156, 0, 0, 0.8);
+  text-indent: 15px;
+  padding: 5px 10px;
+  margin-top: 5px;
+  border-radius: 2px;
+  text-align: justify;
+}
+
+.other-info {
+  background-color: rgba(50, 50, 50, 0.9);
+  padding: 5px 10px;
+  border-radius: 2px;
+  display: flex;
+  margin-top: 5px;
+}
+
+.developer-pic-name {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  align-items: center;
+  margin-right: 10px;
+}
+.developer-pic {
+  width: 30px;
+  height: 30px;
+  border: 1px solid lightblue;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.developer-name {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.social-media-links {
+  display: flex;
+  flex: 1;
+  justify-content: end;
+  column-gap: 10px;
+ 
+}
+
+.social-media-logo {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.developer {
+  background-color:rgba(79, 79, 79, 0.8);
+  color:rgb(255, 255, 255);
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 2px;
+  text-align: center;
+  cursor: pointer;
+  pointer-events: auto;
+  transition: opacity 0.15s, background-color 0.3s;
+}
+.developer-info:hover .developer{
+  opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.developer-info:hover .more-info {
+  opacity: 1;
+}

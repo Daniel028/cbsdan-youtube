@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="video.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="developer-info.css">
+    <link rel="stylesheet" href="general.css">
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icon/hamburger-menu.svg">
+        <img class="youtube-logo" src="icon/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-logo" src="icon/search.svg">
+          <div class="tool-tip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-logo" src="icon/voice-search-icon.svg">
+          <div class="tool-tip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-container">
+          <img class="upload-logo" src="icon/upload.svg">
+          <div class="tool-tip">Create</div>
+        </div>
+        <div class="youtube-apps-logo-container">
+          <img class="youtube-apps-logo" src="icon/youtube-apps.svg">
+          <div class="tool-tip">YouTube apps</div>
+        </div>
+        <div class="notifications-container">
+          <img class="notification-icon" src="icon/notifications.svg">
+          <div class="notification-count">3</div>
+          <div class="tool-tip">Notifications</div>
+        </div>
+        <div class="my-channel-profile-container">
+          <img class="my-channel-profile" src="thumbnails/me.jpg">
+        </div>
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-link-container">
+        <img class="sidebar-link" src="icon/home.svg">
+        <div class="icon-name">Home</div>
+      </div>
+      <div class="sidebar-link-container">
+        <img class="sidebar-link" src="icon/explore.svg">
+        <div class="icon-name">Explore</div>
+      </div>
+      <div class="sidebar-link-container">
+        <img class="sidebar-link" src="icon/subscriptions.svg">
+        <div class="icon-name">Subscriptions</div>
+      </div>
+      <div class="sidebar-link-container">
+        <img class="sidebar-link" src="icon/originals.svg">
+        <div class="icon-name">Originals</div>
+      </div>
+      <div class="sidebar-link-container">
+        <img class="sidebar-link" src="icon/youtube-music.svg">
+        <div class="icon-name">Youtube Music</div>
+      </div>
+      <div class="sidebar-link-container">
+        <img class="sidebar-link" src="icon/library.svg">
+        <div class="icon-name">Library</div>
+      </div>
+    </div>
+    <div class="video-grid">
+      <div class="video-thumbnail-descrip">
+        <div class="container-video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22367s">
+            <img class="video-thumbnail" src="thumbnails/thumbnail-7.webp">
+          </a>
+          <div class="video-time">6:31:24</div>
+        </div>
+        <div class="container-channel-profile-descrip">
+          <div class="container-channel-profile">
+            <a href="https://www.youtube.com/c/SuperSimpleDev">
+              <img class="channel-profile" src="channel-profile/my-channel.jpeg">
+            </a>
+          </div>
+          <div class="container-descrip">
+            <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22367s">
+              <p class="video-title">
+                HTML &#38; CSS Full Course - Beginner to Pro (2022)
+              </p>
+           </a>
+           <a href="https://www.youtube.com/c/SuperSimpleDev">
+            <p class="video-author">SuperSimpleDev</p>
+           </a>
+            <p class="video-stats">1.2M views &#8226; 5 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-thumbnail-descrip">
+        <div class="container-video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=jaGb1lVHTcA">
+            <img class="video-thumbnail" src="thumbnails/thumbnail-8.webp">
+          </a>
+          <div class="video-time">2:56</div>
+        </div>
+        <div class="container-channel-profile-descrip">
+          <div class="container-channel-profile">
+            <a href="https://www.youtube.com/c/TrendingTracksofficial">
+              <img class="channel-profile" src="channel-profile/channel-8.jpeg">
+            </a>
+          </div>
+          <div class="container-descrip">
+            <a href="https://www.youtube.com/watch?v=jaGb1lVHTcA">
+              <p class="video-title">
+                Marshmello x Jonas Brothers - Leave Before You Love Me (Lyrics)
+              </p>
+           </a>
+           <a href="https://www.youtube.com/c/TrendingTracksofficial">
+            <p class="video-author">TrendingTracks</p>
+           </a>
+            <p class="video-stats">969K views &#8226; 5 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-thumbnail-descrip">
+        <div class="container-video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+            <img class="video-thumbnail" src="thumbnails/thumbnail-1.webp">
+          </a>
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="container-channel-profile-descrip">
+          <div class="container-channel-profile">
+            <a href="https://www.youtube.com/c/mkbhd">
+              <img class="channel-profile" src="channel-profile/channel-1.jpeg">
+            </a>
+          </div>
+          <div class="container-descrip">
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+              <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+           </a>
+           <a href="https://www.youtube.com/c/mkbhd">
+            <p class="video-author">Marques Brownlee</p>
+           </a>
+            <p class="video-stats">3.4M views &#8226; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-thumbnail-descrip">
+        <div class="container-video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+            <img class="video-thumbnail" src="thumbnails/thumbnail-2.webp">
+          </a>
+          <div class="video-time">8:22</div>
+        </div>
+        <div class="container-channel-profile-descrip">
+          <div class="container-channel-profile">
+            <a href="https://www.youtube.com/c/markiplier">
+              <img class="channel-profile" src="channel-profile/channel-2.jpeg">
+            </a>
+          </div>
+          <div class="container-descrip">
+            <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+              <p class="video-title">
+                Try Not To Laugh Challenge #9 
+              </p>
+            </a>
+            <a href="https://www.youtube.com/c/markiplier">
+              <p class="video-author">Markiplier</p>
+            </a>
+            <p class="video-stats">19M views &#8226; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-thumbnail-descrip">
+        <div class="container-video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+            <img class="video-thumbnail" src="thumbnails/thumbnail-3.webp">
+          </a>
+          <div class="video-time">9:13</div>
+        </div>
+        <div class="container-channel-profile-descrip">
+          <div class="container-channel-profile">
+            <a href="https://www.youtube.com/user/SSSniperWolf">
+              <img class="channel-profile" src="channel-profile/channel-3.jpeg">
+            </a>
+          </div>
+          <div class="container-descrip">
+            <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+              <p class="video-title">
+                Crazy Tik Toks Taken Moments Before DISASTER
+              </p>
+            </a>
+            <a href="https://www.youtube.com/user/SSSniperWolf">
+              <p class="video-author">SSSniperWolf</p>
+            </a>
+            <p class="video-stats">12M views &#8226; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-thumbnail-descrip">
+        <div class="container-video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+            <img class="video-thumbnail" src="thumbnails/thumbnail-4.webp">
+          </a>
+          <div class="video-time">22:09</div>
+        </div>
+        <div class="container-channel-profile-descrip">
+          <div class="container-channel-profile">
+            <a href="https://www.youtube.com/c/veritasium">
+              <img class="channel-profile" src="channel-profile/channel-4.jpeg">
+            </a>
+          </div>
+          <div class="container-descrip">
+            <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+              <p class="video-title">
+                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              </p>
+            </a>
+            <a href="https://www.youtube.com/c/veritasium">
+              <p class="video-author">Veritasium</p>
+            </a>
+            <p class="video-stats">18M views &#8226; 4 months ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-thumbnail-descrip">
+        <div class="container-video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+            <img class="video-thumbnail" src="thumbnails/thumbnail-5.webp">
+          </a>
+          <div class="video-time">11:17</div>
+        </div>
+        <div class="container-channel-profile-descrip">
+          <div class="container-channel-profile">
+            <a href="https://www.youtube.com/c/CSDojo">
+              <img class="channel-profile" src="channel-profile/channel-5.jpeg">
+            </a>
+          </div>
+          <div class="container-descrip">
+            <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+              <p class="video-title">
+                Kadane&#8217;s Algorithm to Maximum Sum Subarray Problem
+              </p>
+            </a>
+            <a href="https://www.youtube.com/c/CSDojo">
+              <p class="video-author">CS Dojo</p>
+            </a>
+            <p class="video-stats">519K views &#8226; 5 years ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-thumbnail-descrip">
+        <div class="container-video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+            <img class="video-thumbnail" src="thumbnails/thumbnail-6.webp">
+          </a>
+          <div class="video-time">19:59</div>
+        </div>
+        <div class="container-channel-profile-descrip">
+          <div class="container-channel-profile">
+            <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">
+              <img class="channel-profile" src="channel-profile/channel-6.jpeg">
+            </a>
+          </div>
+          <div class="container-descrip">
+            <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+              <p class="video-title">
+                Anything You Can Fit In The Circle I&#8217;ll Pay For
+              </p>
+            </a>
+            <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">
+              <p class="video-author">MrBeast</p>
+            </a>
+            <p class="video-stats">141M views &#8226; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-thumbnail-descrip">
+        <div class="container-video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=EoBHRvbKrCQ">
+            <img class="video-thumbnail" src="thumbnails/thumbnail-9.webp">
+          </a>
+          <div class="video-time">4:08</div>
+        </div>
+        <div class="container-channel-profile-descrip">
+          <div class="container-channel-profile">
+            <a href="https://www.youtube.com/c/oldskullnime">
+              <img class="channel-profile" src="channel-profile/channel-9.jpeg">
+            </a>
+          </div>
+          <div class="container-descrip">
+            <a href="https://www.youtube.com/watch?v=EoBHRvbKrCQ">
+              <p class="video-title">
+                Tensura Season 2 Part 2 OP Full【AMV】|『Like Flames』by MindaRyn [FHD]
+              </p>
+            </a>
+            <a href="https://www.youtube.com/c/oldskullnime">
+              <p class="video-author">oldskullnime</p>
+            </a>
+            <p class="video-stats">4M views &#8226; 9 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-thumbnail-descrip">
+        <div class="container-video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=9QGf6UYs6fI">
+            <img class="video-thumbnail" src="thumbnails/thumbnail-10.webp">
+          </a>
+          <div class="video-time">10:10</div>
+        </div>
+        <div class="container-channel-profile-descrip">
+          <div class="container-channel-profile">
+            <a href="https://www.youtube.com/user/MrElizethe">
+              <img class="channel-profile" src="channel-profile/channel-10.jpg">
+            </a>
+          </div>
+          <div class="container-descrip">
+            <a href="https://www.youtube.com/watch?v=9QGf6UYs6fI">
+              <p class="video-title">
+                Ichigo vs Aizen Bleach Full Fight English Sub
+              </p>
+            </a>
+            <a href="https://www.youtube.com/user/MrElizethe">
+              <p class="video-author">Infinity Magic</p>
+            </a>
+            <p class="video-stats">2.7M views &#8226; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-thumbnail-descrip">
+        <div class="container-video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=OP-00EwLdiU">
+            <img class="video-thumbnail" src="thumbnails/thumbnail-11.webp">
+          </a>
+          <div class="video-time">9:37</div>
+        </div>
+        <div class="container-channel-profile-descrip">
+          <div class="container-channel-profile">
+            <a href="https://www.youtube.com/c/HillsongUNITED">
+              <img class="channel-profile" src="channel-profile/channel-11.jpg">
+            </a>
+          </div>
+          <div class="container-descrip">
+            <a href="https://www.youtube.com/watch?v=OP-00EwLdiU">
+              <p class="video-title">
+                Oeans (Where Feet May fail) - Hillsong UNITED - Live in Israel
+              </p>
+            </a>
+            <a href="https://www.youtube.com/c/HillsongUNITED">
+              <p class="video-author">Hillsong UNITED</p>
+            </a>
+            <p class="video-stats">155M views &#8226; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-thumbnail-descrip">
+        <div class="container-video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=xu-WuJtOl0c">
+            <img class="video-thumbnail" src="thumbnails/thumbnail-12.webp">
+          </a>
+          <div class="video-time">9:37</div>
+        </div>
+        <div class="container-channel-profile-descrip">
+          <div class="container-channel-profile">
+            <a href="https://www.youtube.com/c/MotivationalStories2020">
+              <img class="channel-profile" src="channel-profile/channel-12.jpg">
+            </a>
+          </div>
+          <div class="container-descrip">
+            <a href="https://www.youtube.com/watch?v=xu-WuJtOl0c">
+              <p class="video-title">
+                Winners Need Disciplines Not Motivation &#8213; Powerful Inspirational Speech
+              </p>
+            </a>
+            <a href="https://www.youtube.com/c/MotivationalStories2020">
+              <p class="video-author">Motivational Stories</p>
+            </a>
+            <p class="video-stats">5M views &#8226; 1 years ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="developer-info">
+      <div class="more-info">
+        <p class="description">This web page is design like a real YouTube.
+          Created by Daniel Cabasa, 18 yrs. old from Philippines.
+          Created after learning HTML and CSS for 8 days 
+          from an amazing software engineer and a youtuber name Simon. 
+        </p>
+        <p class="description">
+          The first video refer to the tutorial on how the developer
+          did this.
+        </p>
+    
+        <div class="other-info">
+          <div class="developer-pic-name">
+            <img class="developer-pic" src="thumbnails/me.jpg">
+            <div class="developer-name">Daniel Cabasa</div>
+          </div>
+          <div class="social-media-links">
+            <a href="https://www.facebook.com/daniel.cabasa.14" target="_blank">
+              <img class="social-media-logo" src="icon/facebook.png">
+            </a>
+            <a href="https://www.instagram.com/danri028/" target="_blank">
+              <img class="social-media-logo" src="icon/instagram (1).png">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="developer">
+          YouTube Clone created by Daniel Cabasa
+      </div>
+    </div>
+
+  </body>
+</html>
